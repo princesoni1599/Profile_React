@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="hero__right">
         <div className="hero__image-wrapper">
           <img
-            src="./src/assets/profile.jpg"
+             src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="profile"
           />
         </div>

@@ -6,7 +6,7 @@ const projects = [
     tags: ["Angular", "CSS", "JavaScript", "Node.js"],
     description:
       "Implemented the classic Battleship game using JavaScript and data structures.",
-    image: "./src/assets/p1.png",
+    image: "/react.svg",
     github: "https://github.com/princesoni1599/prakrtik",
     demo: "https://yourdemo.com/battleship",
   },
@@ -15,7 +15,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "API"],
     description:
       "Uses a public movie API to build a sortable movie list and favorites system.",
-    image: "./src/assets/profile.jpg",
+    image: "/p1.png",
     github: "https://github.com/yourname/movie-api",
     demo: "https://yourdemo.com/movie-api",
   },
@@ -31,7 +31,7 @@ return (
     >
       {/* IMAGE */}
       <div className="project-image">
-        <img src={project.image} alt={project.title} />
+        <img src={`${import.meta.env.BASE_URL}${project.image}`} alt={project.title} />
       </div>
 
       {/* CONTENT */}
