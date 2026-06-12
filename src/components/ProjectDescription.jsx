@@ -3,21 +3,48 @@ import "./ProjectDescription.css";
 const projects = [
   {
     title: "prakrtik",
-    tags: ["Angular", "CSS", "JavaScript", "Node.js"],
+    tags: ["Angular", "CSS", "Spring Boot", "Node.js", "MySQL", "Java", "Docker", "Microservices", "Rest API", "JWT", "OAuth2"],
     description:
-      "Implemented the classic Battleship game using JavaScript and data structures.",
-    image: "/react.svg",
+      "A Ecommerce website built with Angular and Spring Boot, featuring a responsive design and secure authentication using JWT and OAuth2. The application is containerized with Docker and follows a microservices architecture for scalability and maintainability. ",
+    image: "/p1.png",
     github: "https://github.com/princesoni1599/prakrtik",
-    demo: "https://yourdemo.com/battleship",
+    demo: "https://github.com/princesoni1599/prakrtik",
   },
   {
-    title: "Movie Titles API",
-    tags: ["HTML", "CSS", "JavaScript", "API"],
+    title: "Bitcoin Price Prediction",
+    tags: ["Python", "Django", "sklearn", "matplotlib", "TensorFlow", "numpy", "pandas"],
     description:
-      "Uses a public movie API to build a sortable movie list and favorites system.",
-    image: "/p1.png",
-    github: "https://github.com/yourname/movie-api",
-    demo: "https://yourdemo.com/movie-api",
+      "Predicts Bitcoin prices using a deep learning linear regression model built with TensorFlow.",
+    image: "/bitcoin1.png",
+    github: "https://github.com/princesoni1599/Price-Prediction_usingML_Django",
+    demo: "https://github.com/princesoni1599/Price-Prediction_usingML_Django",
+  },
+  {
+    title: "Hostel Management System",
+    tags: ["Python", "Tkinter", "Pillow", "sql connector"],
+    description:
+      "Manages hostel operations with a user-friendly interface built with Tkinter.",
+    image: "/hms.png",
+    github: "https://github.com/princesoni1599/HMS",
+    demo: "https://github.com/princesoni1599/HMS",
+  },
+  {
+    title: "rock-paper-scissor",
+    tags: ["Python", "OpenCV", "Google Colab", "Data Set"],
+    description:
+      "A simple rock-paper-scissors game implemented with OpenCV and Google Colab. The game uses a dataset of hand gestures to recognize the player's move and determine the winner.",
+    image: "/rps.png",
+    github: "https://github.com/princesoni1599/rock-paper-scissor",
+    demo: "https://github.com/princesoni1599/rock-paper-scissor",
+  },
+  {
+    title: "File Management System",
+    tags: ["Java", "Spring Boot", "Angular", "MySQL"],
+    description:
+      "A file management system built with Java and Spring Boot, featuring a user-friendly interface developed with Angular.",
+    image: "/fms.png",
+    github: "https://github.com/princesoni1599/FileSystem",
+    demo: "https://github.com/princesoni1599/FileSystem",
   },
 ];
 

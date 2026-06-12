@@ -36,16 +36,13 @@ export default function Projects() {
           <h2>About me</h2>
 
           <p className="about-text">
-            I started my software journey from photography. Through that, I
-            learned to love the process of creating from scratch. Since then,
-            this has led me to software development as it fulfills my love for
-            learning and building things.
+            I’m a software engineer with 3+ years of experience in python test automation developer. I have a strong background in developing and maintaining test automation frameworks, as well as experience in cloud technologies like Azure. I’m passionate about writing clean, efficient code and am always eager to learn new technologies and improve my skills.
           </p>
 
           <div className="about-stats">
             <div className="stat">
               <h3>
-                120<span>+</span>
+                10<span>+</span>
               </h3>
               <p>Completed Projects</p>
             </div>
@@ -59,7 +56,7 @@ export default function Projects() {
 
             <div className="stat">
               <h3>
-                10<span>+</span>
+                3<span>+</span>
               </h3>
               <p>Years of experience</p>
             </div>
