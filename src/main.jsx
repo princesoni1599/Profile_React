@@ -8,7 +8,7 @@ import Navbar from './components/Navbar.jsx'
 import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Profile_React">
     <App />
   </BrowserRouter>
 )
