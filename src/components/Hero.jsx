@@ -3,6 +3,9 @@ import "./Hero.css";
 
 
 export default function Hero() {
+  const openResume = () => {
+    window.open("/ResumeNew.pdf", "_blank");
+  };
   return (
     <section className="hero">
       {/* Left section */}
@@ -15,7 +18,12 @@ export default function Hero() {
 
         <div className="hero__buttons">
           <button className="btn primary">Got a project?</button>
-          <button className="btn secondary">My resume</button>
+          <button
+            className="btn secondary"
+            onClick={() => window.open(`${import.meta.env.BASE_URL}ResumeNew.pdf`, "_blank")}
+          >
+            My Resume
+          </button>
         </div>
       </div>
 

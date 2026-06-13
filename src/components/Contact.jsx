@@ -13,7 +13,7 @@ return (
 
   <div className="footer-icons">
     <a
-      href="prince.princesoni.soni38@gmail.com"
+      href="https://mail.google.com/mail/u/0/?fs=1&to=prince.princesoni.soni38@gmail.com"
       aria-label="Gmail"
       target="_blank"
       rel="noopener noreferrer"
