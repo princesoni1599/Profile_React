@@ -31,7 +31,7 @@ return (
     </a>
 
     <a
-      href="https://linkedin.com/in/yourusername"
+      href="www.linkedin.com/in/prince-soni-aa5412187"
       aria-label="LinkedIn"
       target="_blank"
       rel="noopener noreferrer"
